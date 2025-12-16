@@ -1,1 +1,14 @@
 .venv/
+
+# Data layout (best practices):
+# - raw/: source data (may be versioned if small / required for homework)
+# - public/: final artifacts intended to be shared / checked in
+# - external/: large third-party downloads (do not commit)
+# - interim/: scratch/intermediate results (do not commit)
+# - processed/: derived datasets (typically reproducible, do not commit)
+data/external/**
+!data/external/.gitkeep
+data/interim/**
+!data/interim/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
