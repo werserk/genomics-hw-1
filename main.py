@@ -1,5 +1,6 @@
 def main():
-    print("Hello from genomics-hw-1!")
+    """Main entry point for genomics-hw-1."""
+    return "Hello from genomics-hw-1!"
 
 
 if __name__ == "__main__":
